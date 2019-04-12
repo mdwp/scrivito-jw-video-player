@@ -1,7 +1,11 @@
-# Scrivito Countdown
+# Scrivito JW Video Player
 [![CMS: Scrivito](https://img.shields.io/badge/CMS-Scrivito-brightgreen.svg)](https://scrivito.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A countdown React component/Scrivito widget for the Scrivito CMS.
+A JW video-player React component/Scrivito widget for the Scrivito CMS.
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-jw-video-player/master/jw-player-screenshot.png)
 
 ## Installation
 
@@ -10,7 +14,7 @@ Open your terminal.
 `$ cd` to your Scrivito project
 
 ```
-$ npm install scrivito-countdown
+$ npm install scrivito-jw-video-player
 ```
 
 Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
@@ -18,7 +22,7 @@ Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
 Add this line to your index.js:
 
 ```
-import "scrivito-countdown";
+import "scrivito-jw-video-player";
 ```
 
 ## Development
@@ -36,7 +40,7 @@ npm install file:<path to build folder>
 e.g.
 
 ```
-npm install file:../scrivito-countdown/build/
+npm install file:../scrivito-jw-video-player/build/
 ```
 
 To publish the package:
